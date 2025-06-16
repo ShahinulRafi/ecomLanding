@@ -66,8 +66,6 @@ A full-stack E-commerce landing page built with Next.js, Prisma, and Next.js API
 
 ## Demo Admin Credentials
 
-(Optional - include only if safe to share for testing purposes)
-
 ```
 Email: admin
 Password: admin123
