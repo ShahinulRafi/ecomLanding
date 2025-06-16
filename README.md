@@ -3,7 +3,7 @@
 Group Members:
 S. M. Shahinul Karim (21701023)
 Sahib Abbas Bahar Chawdhury (21701022)
-Misbahu Haque Arafat (21701033)**
+Misbahul Haque Arafat (21701033)**
 
 A full-stack E-commerce landing page built with Next.js, Prisma, and Next.js API Routes. This project includes product browsing, filtering, ordering, and an admin panel for managing products.
 
