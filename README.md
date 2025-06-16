@@ -1,4 +1,4 @@
-**E-commerce Landing Page**
+**E-commerce Landing Page:**
 This is a full-stack E-commerce Landing Page built with Next.js, Next.js API Routes, and Prisma ORM.
 
 **Features**
