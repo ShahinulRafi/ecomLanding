@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
-          href="https://flowbite.com/"
+          href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
@@ -19,7 +19,7 @@ export default function Navbar() {
             loading="lazy"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Flowbite
+            E-Commerce
           </span>
         </Link>
         <button
@@ -68,22 +68,22 @@ export default function Navbar() {
                 About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="#"
                 className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Services
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link
                 href="#"
                 className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Pricing
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="#"
@@ -91,17 +91,18 @@ export default function Navbar() {
               >
                 Contact
               </Link>
-              <ul>
-                <li>
+            
+              </li>
+
+              <li>
                   <Link
                     href="/admin/login"
                     className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
                     Admin Login
                   </Link>
+              
                 </li>
-              </ul>
-            </li>
           </ul>
         </div>
       </div>
